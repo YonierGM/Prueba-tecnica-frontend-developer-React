@@ -29,3 +29,15 @@ npm install  # o yarn install
 ```bash
 npm run dev  # o yarn dev
 ```
+
+## 🖼️ Vista Previa
+
+### 📌 Listado
+![Página Principal](public/Captura/6.png)
+
+### 📌 Listado de Empleados
+![Listado de Empleados](public/listado.png)
+
+### 📌 Filtros y Búsqueda
+![Filtros y Búsqueda](public/Captura/filtros.png)
+
