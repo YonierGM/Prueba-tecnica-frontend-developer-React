@@ -1,12 +1,31 @@
-# React + Vite
+# 📌 Aplicación de Gestión de Empleados
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descripción
+Esta aplicación permite gestionar empleados, visualizar su información y aplicar filtros de búsqueda y paginación. Utiliza **React** en el frontend y consume datos desde una API.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
+- **React** (Vite)
+- **React Router** para la navegación
+- **React Paginate** para la paginación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Funcionalidades
+✅ Listado de empleados con paginación 📄
+✅ Búsqueda por nombre, correo o cargo 🔍
+✅ Filtros de ordenamiento por nombre o salario 📊
+✅ Navegación a detalle de empleados 🔗
+✅ Interfaz responsiva
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Instalación y Ejecución
+1️⃣ Clonar el repositorio:
+```bash
+git clone https://github.com/YonierGM/Prueba-tecnica-frontend-developer-React.git
+cd tu-repo
+```
+2️⃣ Instalar dependencias:
+```bash
+npm install  # o yarn install
+```
+3️⃣ Ejecutar la aplicación:
+```bash
+npm run dev  # o yarn dev
+```
