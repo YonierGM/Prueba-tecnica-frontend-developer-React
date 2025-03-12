@@ -39,13 +39,13 @@ npm run dev  # o yarn dev
 ![Página Principal](public/Captura/6.png)
 
 ### 📌 Listado mobile
-![Listado de Empleados](public/Capture/3.png)
+![Listado de Empleados](public/Capture/3.jpeg)
 
 ### 📌 Detalle empleado
-![Filtros y Búsqueda](public/Captura/4.png)
+![Filtros y Búsqueda](public/Captura/4.jpeg)
 
 ### 📌 Asistencia empleado
-![Filtros y Búsqueda](public/Captura/5.png)
+![Filtros y Búsqueda](public/Captura/5.jpeg)
 
 ### 📌 Home
-![Filtros y Búsqueda](public/Captura/2.png)
+![Filtros y Búsqueda](public/Captura/2.jpeg)
