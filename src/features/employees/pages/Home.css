@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    .datos{
+        width: 90%;
+    }
+
+}
+
+.info-perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.datos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 20px;
+    background: rgba(228, 230, 233, .5);
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.datos:hover{
+    background: rgb(228, 230, 233)
+}
+
+.header-datos{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-datos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
