@@ -19,7 +19,7 @@ function Header() {
         <ul className={`opciones ${menu ? "mostrar" : ""}`}>
           <div className="header-menu">
             <div className="content-header">
-              <h4>Vibras Store</h4>
+              <h4>Gestión empleados</h4>
               <i className="fa-solid fa-xmark" onClick={toggle}></i>
             </div>
             <div className="hr">
