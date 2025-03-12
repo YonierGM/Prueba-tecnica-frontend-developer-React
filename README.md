@@ -32,12 +32,20 @@ npm run dev  # o yarn dev
 
 ## 🖼️ Vista Previa
 
-### 📌 Listado
+### 📌 Menu mobile
+![Filtros y Búsqueda](public/Captura/1.jpeg)
+
+### 📌 Listado desktop
 ![Página Principal](public/Captura/6.png)
 
-### 📌 Listado de Empleados
-![Listado de Empleados](public/listado.png)
+### 📌 Listado mobile
+![Listado de Empleados](public/Capture/3.png)
 
-### 📌 Filtros y Búsqueda
-![Filtros y Búsqueda](public/Captura/filtros.png)
+### 📌 Detalle empleado
+![Filtros y Búsqueda](public/Captura/4.png)
 
+### 📌 Asistencia empleado
+![Filtros y Búsqueda](public/Captura/5.png)
+
+### 📌 Home
+![Filtros y Búsqueda](public/Captura/2.png)
