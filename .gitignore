@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencias y caché
+dist/
+.build/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuraciones de editor
+*.swp
+*.swo
+
+# Archivos de compilación
+*.log
+*.lock
+*.bak
+
+# Archivos de test y cobertura
+coverage/
+jest/
+cypress/videos/
+cypress/screenshots/
+
+# Archivos de empaquetado
+*.zip
+*.tar
+*.gz
+
+# Imágenes optimizadas por Vite
+.vite/
+
+# Archivos generados por React
+*.map

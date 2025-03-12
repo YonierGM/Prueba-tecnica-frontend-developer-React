@@ -1,0 +1,164 @@
+@media (max-width: 768px) {
+    .content{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-dia{
+        width: 100%;
+    }
+    
+    .info-detalle{
+        height: auto;
+        width: 95%;
+        background-color: #F0F2F5;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    .indicadores{
+        width: 100%;
+    }
+    .calendario{
+        width: 100%;
+    }
+    .react-calendar__month-view{
+        padding: 10px;
+    }
+    .react-calendar__month-view__days{
+        display: flex;
+    }
+
+    .indicador{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .asiste{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:#E4E6E9; 
+    }
+    .extra{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:#0866FF; 
+    }
+
+    .highlight {
+        background-color: #E4E6E9 !important; /* Verde para asistencia */
+        color: rgb(0, 0, 0) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .highlight-extra {
+        background-color: #0866FF !important;
+        color: rgb(255, 255, 255) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .extra-only {
+        background-color: #0866FF !important; /* Amarillo si solo tiene horas extra */
+        color: rgb(255, 255, 255) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .highlight:hover, .highlight-extra:hover, .extra-only:hover {
+        opacity: 0.8;
+    }
+}
+
+@media (min-width: 480px) {
+    .info-calle{
+        width: 100%;
+    }
+    .calendario{
+        gap: 10px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .info-detalle{
+        width: 60%;
+    }
+
+    .info-dia{
+        width: 80%;
+        background: #E4E6E9;
+        padding: 20px;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: .5fr 1.5fr;
+    }
+
+    .body .cargo{
+        display: grid;
+        justify-content: start;
+    }
+
+    .indicadores{
+        width: 100%;
+    }
+
+    .react-calendar__month-view{
+        padding: 10px;
+    }
+    .react-calendar__month-view__days{
+        display: flex;
+    }
+
+    .indicador{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .asiste{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:#E4E6E9; 
+    }
+    .extra{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:#0866FF; 
+    }
+
+    .highlight {
+        background-color: #E4E6E9 !important; /* Verde para asistencia */
+        color: rgb(0, 0, 0) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .highlight-extra {
+        background-color: #0866FF !important;
+        color: rgb(255, 255, 255) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .extra-only {
+        background-color: #0866FF !important; /* Amarillo si solo tiene horas extra */
+        color: rgb(255, 255, 255) !important;
+        border-radius: 50%;
+        transition: .3s all ease;
+    }
+
+    .highlight:hover, .highlight-extra:hover, .extra-only:hover {
+        opacity: 0.8;
+    }
+
+    
+    
+}

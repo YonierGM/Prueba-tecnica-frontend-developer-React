@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+    .busqueda input{
+        height: 30px;
+        width: 100% !important;
+        border: none;
+        border-bottom: 1px solid #0e0e0e;
+        outline: none;
+        transition: .4s all ease;
+    }
+
+    .content{
+        margin-bottom: 20px;
+    }
+}
+
+.content{
+    margin-bottom: 10px;
+}
+.busqueda{
+    display: flex;
+    gap: 20px;
+}
+
+.busqueda input{
+    height: 30px;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #0e0e0e;
+    outline: none;
+    transition: .4s all ease;
+}
+
+.busqueda input:focus{
+    border-bottom: 1px solid #075CE5;
+}
+
+.busqueda select{
+    width: 120px;
+    border: none;
+    border-bottom: 1px solid #0e0e0e;
+}
