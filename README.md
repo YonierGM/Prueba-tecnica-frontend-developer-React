@@ -18,7 +18,7 @@ Esta aplicación permite gestionar empleados, visualizar su información y aplic
 ## ⚙️ Instalación y Ejecución
 1️⃣ Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/YonierGM/Prueba-tecnica-frontend-developer-React.git
 cd tu-repo
 ```
 2️⃣ Instalar dependencias:
